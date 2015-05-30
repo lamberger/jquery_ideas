@@ -1,3 +1,6 @@
 /************ Style ************/
-#banner-message{ display: none; }
-.mess{ display: none; }
+#banner-message { display: none; }
+
+.mess { display: none; }
+
+p { margin-left: 2em; }
