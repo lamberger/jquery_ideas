@@ -14,7 +14,7 @@ $('.view a').click(function() {
 		else {
       jQuery(this).text('Hide code');
     }
-		$('.mess').toggle('show');
+		$('.mess').toggle("slow");
 
     return false;
 });

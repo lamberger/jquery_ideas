@@ -33,7 +33,7 @@
 
                 var hideBtn = $( "#button-container" )
                 $( "#button-container a" ).on( "click", function( event ) {
-                    hiddenBox.show();
+                    hiddenBox.show("slow");
                     hideBtn.hide();
                     hiddenBox.fadeOut(5000);
                     hideBtn.delay(5000).fadeIn();
