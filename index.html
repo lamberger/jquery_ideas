@@ -72,12 +72,40 @@
 
         <hr />
 
+        <!-- =================================
+                        Example three
+             =================================-->
+        <div class="view-nav">
+           <a href="#">View navigation code</a>
+        </div>
+        
+        <div id="nav">
+     		  <p>Animated navigation</p>
+       		  <ul>
+         		   <li> <a href="#">Link 1</a></li>
+         		   <li> <a href="#">Link 2</a></li>
+         		   <li> <a href="#">Link 3</a></li>
+               <li> <a href="#">Link 3</a></li>
+       		  </ul>
+
+            <pre>
+              $('#nav li').hover(function() {
+	    	        $(this).animate({paddingLeft: '+=20px'}, 250); },
+                  function() { $(this).animate({paddingLeft: '-=20px'}, 250);
+	           	});
+            </pre>
+
+     		</div><!-- End -->
+
+        <hr />
+
 
 
         <script src="http://code.jquery.com/jquery-latest.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendors/bower_components/jquery/dist/jquery.min.js"><\/script>')</script>
         <script src="js/pjlHideSho.js"></script>
         <script src="js/pjltoggle.js"></script>
+        <script src="js/navAnimated.js"></script>
 
 
     </body>
